@@ -1,0 +1,14 @@
+--- This file is part of LuaDist project
+
+name = "bin2clua"
+version = "20091010"
+
+desc = "Lua implementation of bin2c, a utility that converts a binary file to a C char string that can be included in a C program"
+author = "Mark Edgar"
+license = "MIT"
+url = "http://lua-users.org/wiki/BinToCee"
+maintainer = "Peter Drahoš"
+
+depends = {
+	"lua ~> 5.1"
+}
