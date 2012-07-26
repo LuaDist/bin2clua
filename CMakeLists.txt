@@ -4,10 +4,10 @@
 # For details see the COPYRIGHT file distributed with LuaDist.
 # Please note that the package source code is licensed under its own license.
 
-PROJECT ( bin2clua )
-CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
-INCLUDE( cmake/dist.cmake )
-INCLUDE( lua )
+project ( bin2clua )
+cmake_minimum_required ( VERSION 2.8 )
+include ( cmake/dist.cmake )
+include ( lua )
 
 # Install
 install_lua_executable ( bin2c bin2c )
