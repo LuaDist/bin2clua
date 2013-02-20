@@ -1,0 +1,24 @@
+type = "x86"
+arch = "Windows"
+author = "Mark Edgar"
+depends = {
+[[lua ~> 5.1]],
+}
+
+desc = "Lua implementation of bin2c, a utility that converts a binary file to a C char string that can be included in a C program"
+version = "20091010"
+maintainer = "Peter Drahoš"
+files = {
+Runtime = {
+[[bin\bin2c]],
+}
+,
+Data = {
+[[share\bin2clua\COPYRIGHT]],
+}
+,
+}
+
+license = "MIT"
+name = "bin2clua"
+url = "http://lua-users.org/wiki/BinToCee"
